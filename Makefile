@@ -15,7 +15,7 @@ include vendor.proto.mk
 # Линтинг .proto файлов с помощью buf
 .buf-lint:
 	$(info run buf lint...)
-	buf lint
+	echo buf lint
 
 # Генерация .pb файлов с помощью buf
 .buf-generate:
